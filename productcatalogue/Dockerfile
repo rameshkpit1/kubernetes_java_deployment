@@ -1,4 +1,4 @@
-FROM openjdk:8u342-jdk-slim-bullseye
+FROM openjdk:24-jdk-slim-bullseye
 ADD target/productcatalogue-0.0.1-SNAPSHOT.jar app.jar
 ADD product-catalogue.yml app-config.yml
 EXPOSE 8020
